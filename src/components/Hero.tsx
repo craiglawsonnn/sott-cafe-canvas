@@ -15,11 +15,11 @@ const Hero: React.FC = () => {
       </div>
       
       <div className="container-custom relative z-10 text-center">
-        <div className="w-40 md:w-48 mx-auto mb-8 animate-fade-in rounded-full overflow-hidden bg-white/90 p-4 aspect-square flex items-center justify-center">
+        <div className="w-40 md:w-48 mx-auto mb-8 animate-fade-in rounded-full overflow-hidden bg-white/90 p-0 aspect-square flex items-center justify-center">
           <img 
             src="/lovable-uploads/c122339f-af97-4df2-8d7d-32d78e300836.png"
             alt="Sott Café & Bakery"
-            className="w-full h-auto"
+            className="w-[120%] h-[120%] object-cover"
           />
         </div>
         <p className="text-lg md:text-xl max-w-xl mx-auto mb-8 text-white/90 drop-shadow-md font-light animate-fade-in" style={{ animationDelay: '0.2s' }}>
