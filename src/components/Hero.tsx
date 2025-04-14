@@ -15,15 +15,19 @@ const Hero: React.FC = () => {
       </div>
       
       <div className="container-custom relative z-10 text-center">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-medium mb-6 text-white drop-shadow-md animate-fade-in">
-          Sott Café & Bakery
-        </h1>
+        <div className="w-40 md:w-48 mx-auto mb-8 animate-fade-in">
+          <img 
+            src="/lovable-uploads/c122339f-af97-4df2-8d7d-32d78e300836.png"
+            alt="Sott Café & Bakery"
+            className="w-full h-auto"
+          />
+        </div>
         <p className="text-lg md:text-xl max-w-xl mx-auto mb-8 text-white/90 drop-shadow-md font-light animate-fade-in" style={{ animationDelay: '0.2s' }}>
           Curated calm. Handcrafted with love. Where slow mornings meet thoughtful details.
         </p>
         <a 
           href="#about" 
-          className="inline-flex items-center gap-2 text-white hover:text-accent transition-colors animate-fade-in"
+          className="inline-flex items-center gap-2 text-white hover:text-accent transition-colors animate-fade-in hover-scale"
           style={{ animationDelay: '0.4s' }}
         >
           <span>Discover Our Story</span>
