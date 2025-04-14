@@ -1,17 +1,15 @@
-
 import React from 'react';
 import { Instagram } from 'lucide-react';
 
 const InstagramFeed: React.FC = () => {
-  // In a real implementation, this would be fetched from Instagram's API
-  // For this demo, we'll use placeholder images
   const mockInstagramPosts = [
     {
-      id: 'post1',
+      id: 'DIYlV8CNtc3',
       imageUrl: '/placeholder.svg',
       likes: 124,
       comments: 12,
-      caption: 'Fresh morning pastries ready for our guests.'
+      caption: 'Fresh morning pastries ready for our guests.',
+      postUrl: 'https://www.instagram.com/p/DIYlV8CNtc3/?img_index=1'
     },
     {
       id: 'post2',
@@ -58,7 +56,7 @@ const InstagramFeed: React.FC = () => {
           {mockInstagramPosts.map((post) => (
             <a 
               key={post.id}
-              href="https://www.instagram.com/sott.cafe.bakery" 
+              href={post.postUrl}
               target="_blank" 
               rel="noopener noreferrer"
               className="group relative aspect-square overflow-hidden"

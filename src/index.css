@@ -44,6 +44,10 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
     @apply bg-background text-foreground font-sans;
   }
@@ -59,7 +63,7 @@
   }
   
   .section {
-    @apply py-12 md:py-20;
+    @apply py-12 md:py-20 scroll-mt-16;
   }
   
   .btn-primary {

@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
       </div>
       
       <div className="container-custom relative z-10 text-center">
-        <div className="w-40 md:w-48 mx-auto mb-8 animate-fade-in">
+        <div className="w-40 md:w-48 mx-auto mb-8 animate-fade-in rounded-full overflow-hidden bg-white/90 p-4 aspect-square flex items-center justify-center">
           <img 
             src="/lovable-uploads/c122339f-af97-4df2-8d7d-32d78e300836.png"
             alt="Sott Café & Bakery"
@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
         </p>
         <a 
           href="#about" 
-          className="inline-flex items-center gap-2 text-white hover:text-accent transition-colors animate-fade-in hover-scale"
+          className="inline-flex items-center gap-2 text-white hover:text-primary transition-colors animate-fade-in hover-scale"
           style={{ animationDelay: '0.4s' }}
         >
           <span>Discover Our Story</span>
